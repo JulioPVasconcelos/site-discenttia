@@ -7,7 +7,9 @@
     <script>
       (function () {
         var l = window.location;
-        var base = "%BASE_URL%";
+        var isGithub = l.hostname.endsWith("github.io");
+        var parts = l.pathname.split("/").filter(Boolean);
+        var base = isGithub && parts.length > 0 ? "/" + parts[0] + "/" : "/";
         l.replace(base + "?p=" + encodeURIComponent(l.pathname + l.search + l.hash));
       })();
     </script>
