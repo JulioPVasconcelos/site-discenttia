@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+/* Discenttia Design System - Premium Dark Theme */
+
+@layer base {
+  :root {
+    --background: 0 0% 4.3%;
+    --foreground: 0 0% 94.9%;
+
+    --card: 0 0% 8.2%;
+    --card-foreground: 0 0% 94.9%;
+
+    --popover: 0 0% 8.2%;
+    --popover-foreground: 0 0% 94.9%;
+
+    --primary: 142 70% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 10.2%;
+    --secondary-foreground: 0 0% 94.9%;
+
+    --muted: 0 0% 10.2%;
+    --muted-foreground: 0 0% 78.8%;
+
+    --accent: 142 70% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 94.9%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 142 70% 45%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --surface: 0 0% 8.2%;
+    --surface-elevated: 0 0% 10.2%;
+    --text-primary: 0 0% 94.9%;
+    --text-secondary: 0 0% 78.8%;
+    --glow-primary: 142 70% 45%;
+  }
+
+  .dark {
+    --background: 0 0% 4.3%;
+    --foreground: 0 0% 94.9%;
+    --card: 0 0% 8.2%;
+    --card-foreground: 0 0% 94.9%;
+    --popover: 0 0% 8.2%;
+    --popover-foreground: 0 0% 94.9%;
+    --primary: 142 70% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 10.2%;
+    --secondary-foreground: 0 0% 94.9%;
+    --muted: 0 0% 10.2%;
+    --muted-foreground: 0 0% 78.8%;
+    --accent: 142 70% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 94.9%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 142 70% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary via-blue-400 to-primary bg-clip-text text-transparent;
+  }
+
+  .glass-card {
+    @apply bg-card/50 backdrop-blur-xl border border-border/50 rounded-xl;
+  }
+
+  .glow-effect {
+    box-shadow: 0 0 40px -10px hsl(var(--primary) / 0.3);
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg transition-all duration-300 hover:bg-primary/90 hover:scale-105 hover:shadow-lg hover:shadow-primary/25;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-transparent border border-border text-foreground font-medium rounded-lg transition-all duration-300 hover:bg-secondary hover:border-primary/50;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1;
+  }
+}
