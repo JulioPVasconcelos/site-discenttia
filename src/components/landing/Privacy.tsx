@@ -29,20 +29,51 @@ const Privacy = () => {
               </p>
               
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
-                Dados Coletados
+                Dados coletados e finalidade
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Coletamos apenas dados essenciais para a prestação do serviço: nome e número 
-                de telefone. Essas informações são utilizadas exclusivamente para fins 
-                administrativos e gestão de agenda.
+                Coletamos apenas dados necessários para a prestação do serviço, como nome e número
+                de telefone, além de informações de agendamento (data/horário) e preferências relacionadas
+                ao atendimento.
               </p>
 
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
-                Compartilhamento
+                WhatsApp: consentimento (opt-in) e cancelamento (opt-out)
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Não vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros 
-                para fins comerciais. Seus dados são tratados com total confidencialidade.
+                O paciente inicia o contato via WhatsApp para solicitar informações e/ou agendar.
+                Após esse contato, mensagens administrativas podem ser enviadas (por exemplo: confirmação,
+                lembretes e pré-consulta) mediante consentimento.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Cancelamento: a qualquer momento, o paciente pode solicitar o cancelamento de mensagens
+                enviando "SAIR" no WhatsApp ou solicitando via e-mail.
+              </p>
+
+              <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
+                Dados sensíveis (saúde)
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Em alguns casos, o profissional pode solicitar dados pré-consulta (ex.: peso/altura ou
+                exames) para fins de organização do atendimento. O envio é opcional e deve ocorrer com
+                consentimento. A Discenttia não realiza diagnóstico, prescrição ou orientação clínica.
+              </p>
+
+              <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
+                Retenção
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Mantemos dados pelo tempo necessário para prestar o serviço e cumprir obrigações legais.
+                Quando aplicável, dados são excluídos mediante solicitação.
+              </p>
+
+              <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
+                Compartilhamento e operadores
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Não vendemos ou alugamos dados pessoais. Para operar o serviço, podemos utilizar
+                fornecedores (por exemplo, Meta/WhatsApp Cloud API e infraestrutura de hospedagem).
+                Esses operadores tratam dados apenas para viabilizar o funcionamento da plataforma.
               </p>
 
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">

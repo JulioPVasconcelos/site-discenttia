@@ -20,20 +20,20 @@ const Footer = () => {
           </div>
 
           <nav className="flex items-center gap-6">
-            <a 
-              href="#privacidade" 
+            <a
+              href="/privacy"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Privacidade
             </a>
-            <a 
-              href="#termos" 
+            <a
+              href="/terms"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Termos
             </a>
-            <a 
-              href="#contato" 
+            <a
+              href="#contato"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Contato
