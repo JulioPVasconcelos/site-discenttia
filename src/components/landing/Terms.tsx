@@ -28,21 +28,39 @@ const Terms = () => {
               </p>
               
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
-                Finalidade do Serviço
+                Finalidade do serviço
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                O serviço tem finalidade exclusivamente administrativa e organizacional, 
-                destinado à automação de agendamentos, confirmações e lembretes. Não 
-                constitui, em hipótese alguma, ferramenta para prestação de serviços de saúde.
+                O serviço tem finalidade administrativa e organizacional: automação de agendamentos,
+                confirmações e lembretes via WhatsApp. Não constitui, em hipótese alguma, ferramenta
+                para prestação de serviços de saúde.
+              </p>
+
+              <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
+                Consentimento e cancelamento
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                O paciente inicia contato via WhatsApp e pode consentir em receber mensagens administrativas
+                (como lembretes e pré-consulta). O cancelamento pode ser solicitado a qualquer momento
+                respondendo "SAIR" no WhatsApp ou por contato via e-mail.
               </p>
 
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
                 Limitações
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                O sistema não substitui o atendimento humano qualificado. Não realizamos 
-                diagnósticos, prescrições, orientações clínicas ou qualquer tipo de 
-                consultoria médica ou de saúde através da plataforma.
+                O sistema não substitui o atendimento humano qualificado. A Discenttia não realiza
+                diagnósticos, prescrições, orientações clínicas ou qualquer tipo de consultoria médica
+                ou de saúde através da plataforma.
+              </p>
+
+              <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
+                Uso aceitável
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                O serviço deve ser utilizado para comunicações administrativas relacionadas a agendamento.
+                É proibido utilizar a plataforma para spam, conteúdo enganoso ou qualquer prática que viole
+                políticas da Meta/WhatsApp.
               </p>
 
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
