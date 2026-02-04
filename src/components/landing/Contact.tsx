@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
-import { Mail, MapPin, Copy, Check } from "lucide-react";
+import { Mail, MapPin, Copy, Check, MessageCircle } from "lucide-react";
 import { useState } from "react";
 
 const Contact = () => {
   const [copied, setCopied] = useState(false);
   const email = "contato@discenttia.com.br";
+  const whatsappE164 = "+5512988764650";
+  const whatsappWaMe = "https://wa.me/5512988764650";
 
   const copyEmail = () => {
     navigator.clipboard.writeText(email);
@@ -64,6 +66,23 @@ const Contact = () => {
 
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
+                  <MessageCircle className="w-6 h-6 text-primary" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground mb-1">WhatsApp</p>
+                  <a
+                    href={whatsappWaMe}
+                    className="text-foreground font-medium hover:underline"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {whatsappE164}
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <div>
@@ -72,10 +91,20 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="pt-4 border-t border-border">
+              <div className="pt-4 border-t border-border space-y-3">
+                <a
+                  href={whatsappWaMe}
+                  className="btn-primary w-full justify-center glow-effect"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <MessageCircle className="w-5 h-5" />
+                  Falar no WhatsApp
+                </a>
+
                 <a
                   href={`mailto:${email}`}
-                  className="btn-primary w-full justify-center glow-effect"
+                  className="btn-secondary w-full justify-center"
                 >
                   <Mail className="w-5 h-5" />
                   Enviar e-mail
