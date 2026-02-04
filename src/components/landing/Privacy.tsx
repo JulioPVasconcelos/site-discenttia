@@ -34,7 +34,8 @@ const Privacy = () => {
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Discenttia — CNPJ 26.837.223/0001-00.
                 Em caso de dúvidas sobre privacidade ou para exercer direitos previstos na LGPD,
-                entre em contato pelo e-mail <a href="mailto:contato@discenttia.com.br" className="text-primary hover:underline">contato@discenttia.com.br</a>.
+                entre em contato pelo e-mail <a href="mailto:contato@discenttia.com.br" className="text-primary hover:underline">contato@discenttia.com.br</a>
+                ou pelo WhatsApp <a href="https://wa.me/5512988764650" className="text-primary hover:underline" target="_blank" rel="noreferrer">+5512988764650</a>.
               </p>
 
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
