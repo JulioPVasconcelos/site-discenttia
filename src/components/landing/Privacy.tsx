@@ -29,6 +29,15 @@ const Privacy = () => {
               </p>
               
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
+                Controlador (LGPD)
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Discenttia — CNPJ 26.837.223/0001-00.
+                Em caso de dúvidas sobre privacidade ou para exercer direitos previstos na LGPD,
+                entre em contato pelo e-mail <a href="mailto:contato@discenttia.com.br" className="text-primary hover:underline">contato@discenttia.com.br</a>.
+              </p>
+
+              <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
                 Dados coletados e finalidade
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
@@ -38,15 +47,28 @@ const Privacy = () => {
               </p>
 
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
-                WhatsApp: consentimento (opt-in) e cancelamento (opt-out)
+                Bases legais (LGPD)
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                O tratamento de dados pode ocorrer, conforme o caso, para execução de contrato e/ou
+                procedimentos preliminares, cumprimento de obrigação legal/regulatória, legítimo interesse
+                e/ou mediante consentimento quando aplicável.
+              </p>
+
+              <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
+                WhatsApp: opt-in, janelas e opt-out
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 O paciente inicia o contato via WhatsApp para solicitar informações e/ou agendar.
-                Após esse contato, mensagens administrativas podem ser enviadas (por exemplo: confirmação,
-                lembretes e pré-consulta) mediante consentimento.
+                Mensagens ativas (por exemplo: confirmações e lembretes) podem ser enviadas apenas
+                relacionadas a um agendamento existente e dentro da janela entre a marcação e a data
+                da consulta.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Cancelamento: a qualquer momento, o paciente pode solicitar o cancelamento de mensagens
+                Não enviamos marketing, promoções ou mensagens não solicitadas.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Cancelamento (opt-out): a qualquer momento, o paciente pode solicitar o cancelamento
                 enviando "SAIR" no WhatsApp ou solicitando via e-mail.
               </p>
 
@@ -54,17 +76,30 @@ const Privacy = () => {
                 Dados sensíveis (saúde)
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Em alguns casos, o profissional pode solicitar dados pré-consulta (ex.: peso/altura ou
-                exames) para fins de organização do atendimento. O envio é opcional e deve ocorrer com
-                consentimento. A Discenttia não realiza diagnóstico, prescrição ou orientação clínica.
+                Não coletamos dados de exames ou dados de saúde pelo WhatsApp. As mensagens de
+                pré-consulta são apenas lembretes e orientações administrativas, por exemplo:
+                "Não esqueça de levar seus exames" ou, para consultas online, "Tenha seu peso e altura
+                já em mãos para agilizar a consulta".
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A Discenttia não realiza diagnóstico, prescrição ou orientação clínica.
               </p>
 
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
                 Retenção
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Mantemos dados pelo tempo necessário para prestar o serviço e cumprir obrigações legais.
-                Quando aplicável, dados são excluídos mediante solicitação.
+                Mantemos dados pelo tempo necessário para prestar o serviço, operar agendamentos e
+                cumprir obrigações legais. Quando aplicável, dados são excluídos mediante solicitação.
+              </p>
+
+              <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
+                Direitos do titular (LGPD)
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Você pode solicitar confirmação de tratamento, acesso, correção, anonimização,
+                portabilidade, eliminação, informação sobre compartilhamento e revogação de consentimento,
+                quando aplicável.
               </p>
 
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">

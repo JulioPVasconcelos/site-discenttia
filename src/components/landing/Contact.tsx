@@ -27,6 +27,8 @@ const Contact = () => {
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Estamos prontos para ajudar você a automatizar seu atendimento.
+            Ao entrar em contato, você concorda em receber mensagens administrativas via WhatsApp
+            (agendamentos, confirmações e lembretes). Para cancelar, envie "SAIR" no WhatsApp.
           </p>
         </motion.div>
 
