@@ -37,12 +37,25 @@ const Terms = () => {
               </p>
 
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
-                Consentimento e cancelamento
+                Consentimento, janelas e cancelamento
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 O paciente inicia contato via WhatsApp e pode consentir em receber mensagens administrativas
-                (como lembretes e pré-consulta). O cancelamento pode ser solicitado a qualquer momento
-                respondendo "SAIR" no WhatsApp ou por contato via e-mail.
+                relacionadas a um agendamento (como confirmações e lembretes). Mensagens ativas são enviadas
+                apenas dentro da janela entre a marcação e a data da consulta.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Não são permitidos envios de marketing ou promoções. O cancelamento pode ser solicitado a
+                qualquer momento respondendo "SAIR" no WhatsApp ou por contato via e-mail.
+              </p>
+
+              <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
+                Dados de saúde (não coletamos)
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Não coletamos dados de exames ou dados de saúde via WhatsApp. O sistema pode enviar lembretes
+                administrativos, como "Não esqueça de levar seus exames" ou "Tenha seu peso e altura já em mãos"
+                para agilizar a consulta.
               </p>
 
               <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
